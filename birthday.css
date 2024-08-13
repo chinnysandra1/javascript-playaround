@@ -1,0 +1,27 @@
+body{background-color:black;
+}
+.video{position:absolute;}
+.container{position: relative;}
+.text{position:absolute ;
+color: beige;
+text-align: center;
+text-transform: uppercase;
+margin-top: 200px;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+font-size: xx-large;
+vertical-align: middle;
+}
+.text1{padding-bottom: 30px;
+}
+.text2{vertical-align: middle;
+text-align: center;}
+a{text-decoration: none;
+color: rgb(255, 217, 0);}
+
+@media (max-width:500px) {
+    .video{width: 500px;;}
+    
+}
